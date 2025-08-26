@@ -1,0 +1,42 @@
+/*=============================================
+   banner-section       
+=============================================*/
+.banner-section {
+  padding: 68px 0px 88px;
+}
+.banner-section .highlight-text {
+  font-size: 18px;
+}
+.banner-section .left-section h1 {
+  margin: 12px 0px 28px;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: var(--thm-black);
+}
+.banner-section .left-section h1 span {
+  color: var(--thm-primary);
+  font-style: italic;
+  font-weight: 800;
+}
+.banner-section .left-section .text {
+  font-size: 18px;
+}
+.banner-section .left-section .highlight-btn {
+  margin-top: 36px;
+}
+.banner-section .left-section .highlight-btn .btn-style {
+  padding: 12px 26px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.banner-section .left-section .highlight-btn .btn-style-1 {
+  position: relative;
+  margin-left: 22px;
+  background-color: var(--thm-bg-1);
+  color: var(--thm-white);
+}
+.banner-section .left-section .highlight-btn .btn-style-1::before {
+  background-color: var(--thm-primary);
+}
