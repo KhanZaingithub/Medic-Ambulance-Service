@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+:root {
+  --thm-heading-font: "Oswald", sans-serif;
+  --thm-primary: #f05a22;
+  --thm-text: #555555;
+  --thm-white: #fff;
+  --thm-bg-1: #3c8cd1;
+  --thm-black: #000000;
+}
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+/*==============================================
+   Base Css
+===============================================*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--thm-heading-font);
+  overflow-x: hidden;
+  height: 150vh;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--thm-primary);
+  font-weight: 700;
+  font-family: var(--thm-heading-font);
+  margin: 0px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 18px;
+  color: var(--thm-base);
+  font-weight: 700;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* Button Style */
+.btn-style {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 4px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  padding-right: 50px;
+  background-color: var(--thm-bg-1);
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 45px;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+  font-family: var(--thm-font);
+  z-index: 1;
+}
+
+.btn-style::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  transform: translateX(-100%);
+  border-radius: 30px;
+  transition-duration: 800ms;
+  background-color: var(--thm-primary);
+  z-index: -1;
+}
+
+.btn-style:hover::before {
+  transform: translateX(0px);
+}
+
+.btn-style:hover,
+.btn-style:focus {
+  color: #ffffff;
+}
+
+/* Button Style ends */
+
+/*============================================
+=           Spacing         =
+=============================================*/
+.header-spacing {
+  padding: 0px;
+}
+.spacing {
+  padding: 120px 0px 120px 0px;
+}
+
+@media screen and (max-width: 1025px) {
+  .spacing {
+    padding: 80px 30px;
+  }
+  .btn-style {
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 4px;
+    padding-right: 35px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .spacing {
+    padding: 60px 15px;
+  }
+  .btn-style {
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-right: 25px;
+    line-height: 36px;
+    border-radius: 5px;
+  }
+  .btn-style::before {
+    border-radius: 5px;
+  }
+}
