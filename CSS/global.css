@@ -25,7 +25,6 @@
 body {
   font-family: var(--thm-heading-font);
   overflow-x: hidden;
-  height: 150vh;
 }
 
 button:focus {
