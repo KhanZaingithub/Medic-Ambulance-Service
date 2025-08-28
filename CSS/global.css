@@ -7,6 +7,7 @@
   --thm-text: #555555;
   --thm-white: #fff;
   --thm-bg-1: #3c8cd1;
+  --thm-bg-2: #fffbf8;
   --thm-black: #131720;
 }
 .container {
@@ -25,7 +26,6 @@
 body {
   font-family: var(--thm-heading-font);
   overflow-x: hidden;
-  height: 150vh;
 }
 
 button:focus {
@@ -35,13 +35,17 @@ button:focus {
 h1,
 h2,
 h3 {
-  color: var(--thm-primary);
-  font-weight: 700;
+  color: var(--thm-black);
   font-family: var(--thm-heading-font);
   margin: 0px;
 }
+h1 {
+  font-weight: 700;
+}
 h2 {
-  font-size: 35px;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 600;
 }
 h3 {
   font-size: 20px;
@@ -125,6 +129,8 @@ p {
   border: 1px solid var(--thm-primary);
   font-family: var(--thm-text-font);
   width: fit-content;
+  color: var(--thm-primary);
+  font-weight: 800;
 }
 
 /*============================================
