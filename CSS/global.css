@@ -8,6 +8,7 @@
   --thm-white: #fff;
   --thm-bg-1: #3c8cd1;
   --thm-bg-2: #fffbf8;
+  --thm-bg-3: #fff5eb;
   --thm-black: #131720;
 }
 .container {
@@ -75,6 +76,7 @@ li {
 
 p {
   font-family: var(--thm-text-font);
+  color: var(--thm-text);
 }
 
 /* Button Style */
