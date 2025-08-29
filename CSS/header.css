@@ -127,16 +127,32 @@
   border-top: 3px solid var(--thm-primary);
   background-color: var(--thm-white);
   transition: 0.4s 0.2s;
-  min-width: 260px;
+  min-width: 320px;
   padding: 10px 20px 20px;
   z-index: 9;
   border-radius: 5px;
+  max-height: 75vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
+.submenu::-webkit-scrollbar {
+  width: 5px; /* thickness (vertical scrollbar) */
+}
+.submenu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.submenu::-webkit-scrollbar-thumb {
+  background: var(--thm-primary);
+  border-radius: 10px;
+}
+
 .submenu > li > a {
   display: block;
   color: var(--thm-bg-1);
   padding: 8px 0px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: var(--thm-text-font);
 }
 
@@ -155,7 +171,7 @@
   padding-left: 8px;
 }
 
-.submenu > li > a:hover::after {
+.submenu > li:hover > a::after {
   transform: scale(1, 1);
   transform-origin: left center;
 }
@@ -362,6 +378,8 @@
   line-height: 1.5;
   padding: 8px 0;
 }
+
+/* Calling Icons */
 .floating__rght__bx {
   position: fixed;
   top: 40%;
@@ -393,18 +411,19 @@
 }
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/images/Home/WA-icon.webp) 50%/35px no-repeat #034925;
+  background: url(/images/Home/WA-icon.webp) 50%/35px no-repeat var(--thm-bg-1);
   cursor: pointer;
   transition: 0.4s ease-in-out;
   border-radius: 50px;
 }
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/images/Home/call_icon.webp) 50%/30px no-repeat #034925;
+  background: url(/images/Home/call_icon.webp) 50%/30px no-repeat
+    var(--thm-bg-1);
 }
 .floating__rght__bx .icnbx {
   width: 60px;
   height: 60px;
-  background: #034925;
+  background: var(--thm-primary);
   border-radius: 50px;
   display: inline-block;
   position: relative;
@@ -427,7 +446,7 @@
   text-align: center;
   font-size: 24px;
   cursor: pointer;
-  background-color: #034a26;
+  background-color: var(--thm-bg-1);
   background-size: 200% auto;
   background-position: left center;
   color: #fff;
