@@ -128,10 +128,21 @@ p {
 .highlight-text {
   padding: 9px 23px;
   border-radius: 100px;
-  border: 1px solid var(--thm-primary);
+  border: 1px solid #d1d1d1;
   font-family: var(--thm-text-font);
   width: fit-content;
   color: var(--thm-primary);
+  font-weight: 800;
+  background-color: #fff;
+}
+.highlight-text-1 {
+  padding: 9px 23px;
+  border-radius: 100px;
+  border: 1px solid var(--thm-primary);
+  font-family: var(--thm-text-font);
+  width: fit-content;
+  color: var(--thm-black);
+  background-color: #fff;
   font-weight: 800;
 }
 
