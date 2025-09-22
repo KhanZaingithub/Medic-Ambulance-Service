@@ -66,7 +66,7 @@
   width: 180px;
 }
 .category-section .category-wrapper .category-container .category-icon {
-  padding: 62px 25px 55px 25px;
+  padding: 62px 15px 55px 15px;
   box-shadow: 12px 19px 62px 0px rgba(13, 52, 79, 0.07);
   background: linear-gradient(180deg, #fce6df 0%, #ffffff 100%);
   border-style: solid;
@@ -171,13 +171,14 @@
 }
 .service-section .bottom-section .service-container {
   background-color: var(--thm-white);
-  padding: 19px 19px 23px;
+  padding: 25px 20px 25px;
   border-radius: 16px;
   box-shadow: 12px 19px 62px 0px rgba(13, 52, 79, 0.07);
+  text-align: center;
 }
 
 .service-section .bottom-section .service-container img {
-  border-radius: 12px;
+  width: 75%;
   margin-bottom: 24px;
 }
 
@@ -212,20 +213,101 @@
   .btn-style-1::before {
   background-color: var(--thm-primary);
 }
-.cover:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0px 0px 0px 250px rgba(0, 0, 0, 0.65) inset;
-  -webkit-transition: 0.7s ease 0s;
-  -moz-transition: 0.7s ease 0s;
-  -o-transition: 0.7s ease 0s;
-  -ms-transition: 0.7s ease 0s;
-  transition: 0.7s ease 0s;
+
+/*=============================================
+   service-section End   
+=============================================*/
+
+/*=============================================
+   why-choose-section       
+=============================================*/
+.choose-section {
+  background-color: #fff;
+  padding: 124px 0px 108px 0px;
 }
-.feature-main:hover .cover:before {
+.choose-section .top-section .text-section {
+  text-align: center;
+}
+.choose-section .top-section .text-section .highlight-text-1 {
+  margin: auto;
+}
+.choose-section .top-section .text-section h2 {
+  margin: 10px 0px 8px;
+}
+.choose-section .bottom-section {
+  margin-top: 40px;
+}
+.choose-section .bottom-section .service-container {
+  background-color: #fefefe;
+  padding: 25px 20px 25px;
+  border-radius: 16px;
+  box-shadow: 12px 19px 62px 0px rgba(13, 52, 79, 0.07);
+  text-align: center;
+}
+.choose-section .bottom-section .service-container .icon-bg {
+  padding: 13px;
+  background: linear-gradient(180deg, #fff5eb 0%, #ffffff 100%);
+  border-radius: 100%;
+  width: 90px;
+  margin: auto;
+}
+.choose-section .bottom-section .service-container h3 {
+  margin: 10px 0px 5px;
+  color: var(--thm-primary);
+}
+/*=============================================
+   why-choose-section End       
+=============================================*/
+/*=============================================
+  Process section       
+=============================================*/
+.process-section {
+  padding-bottom: 80px 0px 124px;
+}
+/*=============================================
+  Process section End      
+=============================================*/
+
+/*=============================================
+  FAQ section       
+=============================================*/
+.faq-section {
+  padding: 124px 0px 120px 0px;
+  background-color: #fff5eb;
+}
+.faq-section .faq-bottom {
+  margin-top: 40px;
+}
+.faq-section .faq-bottom .accordion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start; /* prevents stretching */
+  gap: 20px 15px;
+}
+.accordion-item {
+  padding: 24px 20px;
+  background-color: #fff;
+  box-shadow: 12px 19px 62px 0 rgba(13, 52.00000000000003, 79, 0.07);
+  border-radius: 10px;
+  border: none;
+}
+.faq-section .faq-bottom .accordion .accordion-item .accordion-button {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0px;
+  color: var(--thm-black);
+}
+.accordion-item .accordion-header .accordion-button {
   box-shadow: none;
 }
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-body {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+/*=============================================
+  FAQ section End 
+=============================================*/
