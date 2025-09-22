@@ -10,18 +10,18 @@
   var $body = $("body");
   // var header = $(".header");
 
-  // windows.on("scroll", function () {
-  //   var scroll = windows.scrollTop();
-  //   var headerHeight = sticky.height();
+  windows.on("scroll", function () {
+    var scroll = windows.scrollTop();
+    var headerHeight = sticky.height();
 
-  //   if (screenSize >= 320) {
-  //     if (scroll < headerHeight) {
-  //       sticky.removeClass("is-sticky");
-  //     } else {
-  //       sticky.addClass("is-sticky");
-  //       // header.css("padding", "10px 15px");
-  //     }
-  //   }
+    if (screenSize >= 320) {
+      if (scroll < headerHeight) {
+        sticky.removeClass("is-sticky");
+      } else {
+        sticky.addClass("is-sticky");
+        // header.css("padding", "10px 15px");
+      }
+    }
   });
   /*----------  Scroll to top  ----------*/
   function scrollToTop() {
