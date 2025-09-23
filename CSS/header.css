@@ -394,32 +394,34 @@
 .fltng__lst > li {
   clear: both;
   position: relative;
-  background: #fff;
+  background: #fafafa;
+  box-shadow: rgba(206, 196, 196, 0.45) 0px 4px 12px 0px;
   width: 75px;
   height: 75px;
   border-radius: 50px;
   margin-bottom: 10px;
 }
-.fltng__lst > .first-icon:before {
-  content: "";
-  position: absolute;
-  left: -6px;
-  top: 43px;
-  width: 93px;
-  height: 70px;
-  background: url(/images/Home/arrow.webp) 0 0/100% no-repeat;
-}
+
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/images/Home/WA-icon.webp) 50%/35px no-repeat var(--thm-bg-1);
+  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat var(--thm-bg-1);
   cursor: pointer;
   transition: 0.4s ease-in-out;
   border-radius: 50px;
 }
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/images/Home/call_icon.webp) 50%/30px no-repeat
-    var(--thm-bg-1);
+  background: url(/images/Home/call-icon.png) 50%/30px no-repeat var(--thm-bg-1);
 }
+
+.fltng__lst > li:hover .icnbx {
+  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat
+    var(--thm-primary);
+}
+.fltng__lst > .second-icon:hover .icnbx {
+  background: url(/images/Home/call-icon.png) 50%/30px no-repeat
+    var(--thm-primary);
+}
+
 .floating__rght__bx .icnbx {
   width: 60px;
   height: 60px;
