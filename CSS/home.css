@@ -3,15 +3,19 @@
 =============================================*/
 .banner-section {
   padding: 68px 0px 88px;
+  background-image: url(/Images/Home/Amb\ Banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-section .highlight-text {
   font-size: 18px;
 }
 .banner-section .left-section h1 {
-  margin: 12px 0px 28px;
-  font-size: 65px;
+  margin: 12px 0px 20px;
+  font-size: 50px;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 60px;
   text-transform: uppercase;
   color: var(--thm-black);
 }
@@ -41,7 +45,7 @@
   background-color: var(--thm-primary);
 }
 .banner-section .right-section {
-  align-content: center;
+  align-content: end;
 }
 
 /*=============================================
@@ -58,7 +62,7 @@
   justify-content: center;
 }
 .category-section .category-wrapper {
-  margin-top: 48px;
+  margin-top: 50px;
   display: flex;
   gap: 0px 30px;
 }
@@ -164,7 +168,7 @@
   font-size: 18px;
 }
 .service-section .bottom-section {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 .service-section .bottom-section .row {
   gap: 24px 0px;
