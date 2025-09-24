@@ -418,7 +418,7 @@
     var(--thm-primary);
 }
 .fltng__lst > .second-icon:hover .icnbx {
-  background: url(/images/Home/call-icon.png) 50%/30px no-repeat
+  background: url(/Images/Home/call-icon.png) 50%/30px no-repeat
     var(--thm-primary);
 }
 
