@@ -167,6 +167,7 @@ p {
 }
 .faq-section .faq-bottom .accordion .accordion-item .accordion-button {
   font-size: 22px;
+  line-height: 32px;
   font-weight: 600;
   padding: 0px;
   color: var(--thm-black);
