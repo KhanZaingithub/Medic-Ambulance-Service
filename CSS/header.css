@@ -410,7 +410,7 @@
   border-radius: 50px;
 }
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/images/Home/call-icon.png) 50%/30px no-repeat var(--thm-bg-1);
+  background: url(/Images/Home/call-icon.png) 50%/30px no-repeat var(--thm-bg-1);
 }
 
 .fltng__lst > li:hover .icnbx {
