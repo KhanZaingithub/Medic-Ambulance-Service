@@ -198,8 +198,51 @@
     Team Section
 =============================================*/
 .team-section {
-  padding: 108px 0px 124px 0px;
+  padding: 108px 0px 150px 0px;
   background-color: var(--thm-white);
+}
+.team-section .top-section .highlight-text {
+  margin: auto;
+}
+.team-section .top-section h2 {
+  margin: 10px 0px 8px 0px;
+}
+.team-section .bottom-section {
+  margin-top: 50px;
+}
+.team-section .bottom-section .team-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start; /* prevents stretching */
+  gap: 94px 24px;
+}
+.team-section .bottom-section .team-wrapper .team-container {
+  min-height: 420px;
+  background-image: url(/Images/About/dummy-image.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 0px 16px;
+  align-content: end;
+}
+.team-section .bottom-section .team-wrapper .team-container .text {
+  background-image: url(/Images/About/text-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 28px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 27px 20.1px 0px rgba(19, 23, 32, 0.05);
+  margin-bottom: -58px;
+}
+.team-section .bottom-section .team-wrapper .team-container .text h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.team-section .bottom-section .team-wrapper .team-container .text p {
+  margin-bottom: 0px;
 }
 /*=============================================
     Team Section End
