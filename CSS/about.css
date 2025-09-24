@@ -1,0 +1,206 @@
+/*=============================================
+    breadcrumb Section 
+=============================================*/
+.breadcrumb-section {
+  position: relative;
+  padding: 106px 0px;
+}
+.breadcrumb-section .breadcrumb-img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+.breadcrumb-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff5eb;
+  opacity: 0.6;
+  z-index: 1;
+}
+.breadcrumb-section .content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.breadcrumb-section .content .highlight-text-1 {
+  font-size: 14px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+.breadcrumb-section .content h2 {
+  color: var(--thm-black);
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.breadcrumb-section .content h2 span {
+  color: var(--thm-primary);
+}
+.breadcrumb {
+  background: transparent;
+  justify-content: center;
+  margin: 0px;
+}
+.breadcrumb .breadcrumb-item a {
+  color: var(--thm-black);
+  font-weight: 600;
+}
+.breadcrumb .breadcrumb-item a:hover {
+  color: var(--thm-primary);
+}
+.breadcrumb .breadcrumb-item.active {
+  color: var(--thm-primary);
+  font-weight: 600;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--thm-primary);
+}
+/*=============================================
+    breadcrumb Section End 
+=============================================*/
+
+/*=============================================
+    About Section 
+=============================================*/
+
+.about-section {
+  padding: 108px 0px 124px;
+}
+.about-section .top-section {
+  background-color: var(--thm-white);
+  width: 80%;
+  margin: auto;
+}
+.about-section .top-section p {
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--thm-black);
+  font-weight: 600;
+  text-align: center;
+}
+.about-section .bottom-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-section .bottom-section .counter-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: start; /* prevents stretching */
+  gap: 48px 0px;
+  width: 184px;
+}
+.about-section .bottom-section .counter h3 {
+  font-size: 48px;
+  margin-bottom: 12px;
+  line-height: 48px;
+  font-weight: 700;
+  color: var(--thm-black);
+  text-align: center;
+}
+.about-section .bottom-section .counter h3 span {
+  color: var(--thm-primary);
+}
+.about-section .bottom-section .counter-wrapper .counter h4 {
+  font-size: 18px !important;
+  line-height: 25px;
+  color: #6b6c6c;
+  font-weight: 400;
+  font-size: var(--thm-text-font);
+  text-align: center;
+  margin-bottom: 0px;
+}
+.about-section .bottom-section .image-wrapper {
+  width: 728px;
+}
+/*=============================================
+    About Section End
+=============================================*/
+
+/*=============================================
+    Value Section 
+=============================================*/
+.value-section {
+  padding: 108px 0px 124px;
+  background-color: #fff5eb;
+}
+.value-section h2 {
+  text-align: start;
+  margin-bottom: 20px;
+}
+.value-section .left-section {
+  padding-right: 20px;
+}
+.value-section .left-section p {
+  font-size: 18px;
+}
+.value-section .left-section .check-section {
+  margin-top: 20px;
+  gap: 15px 0px;
+}
+.value-section .left-section .check-section .bullet-point {
+  display: flex;
+}
+.value-section .left-section .check-section .bullet-point img {
+  width: 30px;
+}
+.value-section .left-section .check-section .bullet-point h4 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.value-section .right-section {
+  padding-left: 20px;
+}
+.value-section .right-section .highlight-wrapper {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start; /* prevents stretching */
+  gap: 8px 8px;
+}
+.value-section .right-section .highlight-wrapper .highlight {
+  background-color: #ff6400;
+  border-radius: 12px;
+  padding: 32px 10px;
+}
+.value-section .right-section .highlight-wrapper .highlight h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--thm-white);
+  text-align: center;
+}
+/*=============================================
+    Value Section End
+=============================================*/
+
+/*=============================================
+    FAQ Section
+=============================================*/
+.faq-section {
+  padding: 124px 0px 120px;
+}
+/*=============================================
+    FAQ Section End
+=============================================*/
+
+/*=============================================
+    Team Section
+=============================================*/
+.team-section {
+  padding: 108px 0px 124px 0px;
+  background-color: var(--thm-white);
+}
+/*=============================================
+    Team Section End
+=============================================*/

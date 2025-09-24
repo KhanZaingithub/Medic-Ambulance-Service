@@ -4,16 +4,12 @@
   --thm-heading-font: "Plus Jakarta Sans", sans-serif;
   --thm-text-font: "DM Sans", sans-serif;
   --thm-primary: #ff4c00;
-  --thm-text: #555555;
+  --thm-text: #6b6c6c;
   --thm-white: #fff;
   --thm-bg-1: #3642a6;
   --thm-bg-2: #fffbf8;
   --thm-bg-3: #fff5eb;
   --thm-black: #131720;
-}
-.container {
-  max-width: 1240px;
-  margin: auto;
 }
 
 /*==============================================
@@ -146,6 +142,50 @@ p {
   font-weight: 800;
 }
 
+/*=============================================
+  FAQ section       
+=============================================*/
+.faq-section {
+  padding: 80px 0px 124px;
+  background-color: #fff5eb;
+}
+.faq-section .faq-bottom {
+  margin-top: 50px;
+}
+.faq-section .faq-bottom .accordion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start; /* prevents stretching */
+  gap: 20px 15px;
+}
+.accordion-item {
+  padding: 24px 20px;
+  background-color: #fff;
+  box-shadow: 12px 19px 62px 0 rgba(13, 52.00000000000003, 79, 0.07);
+  border-radius: 10px;
+  border: none;
+}
+.faq-section .faq-bottom .accordion .accordion-item .accordion-button {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0px;
+  color: var(--thm-black);
+}
+.accordion-item .accordion-header .accordion-button {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-body {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+/*=============================================
+  FAQ section End 
+=============================================*/
+
 /*============================================
 =           Spacing         =
 =============================================*/
@@ -155,7 +195,11 @@ p {
 .spacing {
   padding: 120px 0px 120px 0px;
 }
-
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1240px;
+  }
+}
 @media screen and (max-width: 1025px) {
   .spacing {
     padding: 80px 30px;
