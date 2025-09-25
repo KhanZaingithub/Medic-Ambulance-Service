@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Medic Ambulance Service</title>
+    <title>Service Medic Ambulance</title>
 
     <!-- CSS -->
     <link
@@ -13,8 +13,13 @@
       onload="this.onload=null;this.rel='stylesheet'"
       crossorigin="anonymous"
     />
+    <!-- LightGallery CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
+    />
     <link rel="stylesheet" href="CSS/global.css" />
-    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="CSS/service.css" />
 
     <!-- Favi Icon -->
     <link rel="icon" href="Images/Home/fav-icon.png" type="image/png" />
@@ -54,160 +59,37 @@
         </div>
       </div>
     </div>
-
-    <!-- Header -->
+    <!-- Header Section -->
     <div id="header"></div>
 
-    <!-- Banner Section -->
-    <div class="container-fluid banner-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 left-section">
-            <p class="highlight-text">Best Ambulance Service</p>
-            <h1>
-              24x7 Ambulance Service in Lucknow
-              <span>Fast, Reliable & Emergency</span> Care
-            </h1>
-            <p class="text">
-              Get the best ambulance service in Lucknow with quick response,
-              affordable charges per km, and safe patient transport. Call our
-              emergency ambulance number for ICU, ventilator, oxygen, road,
-              train & dead body ambulance services anytime.
-            </p>
-            <div class="highlight-btn">
-              <a
-                class="btn-style"
-                href="https://shahambulanceservice.in/contact-us.php"
-              >
-                Explore Services
-              </a>
-              <a class="btn-style btn-style-1" href="tel:9920777780">
-                <span>Call Now</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-6 right-section">
-            <img class="img-fluid" src="Images/Home/Ambulanceeee.png" alt="" />
-          </div>
-          <div class="col-6"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Category Section -->
-    <div class="container-fluid category-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 top-section">
-            <p class="highlight-text">Types of Ambulance Services</p>
-            <h2>
-              Types of Ambulance Services in Lucknow – 24/7 ICU, Ventilator,
-              Cardiac, Oxygen & Patient Transport Support
-            </h2>
+    <!-- Start breadcrumb-->
+    <div class="container-fluid breadcrumb-section">
+      <img
+        src="images/Home/Amb Banner.jpg"
+        loading="lazy"
+        class="breadcrumb-img img-fluid"
+      />
+      <div class="overlay"></div>
+      <div class="container content">
+        <div class="row banner">
+          <div class="col-12">
+            <p class="highlight-text">Ambulance Service We Provide</p>
+            <h2>Services <span>Medic Ambulance</span></h2>
           </div>
           <div class="col-12">
-            <div class="row category-wrapper">
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img
-                      class="img-fluid"
-                      src="Images/icons/cardiac.png"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>Cardiac/ALS Ambulance</p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img
-                      class="img-fluid"
-                      src="Images/icons/train.webp"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>Train Ambulance</p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img class="img-fluid" src="Images/icons/air.webp" alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>
-                    Air <br />
-                    Ambulance
-                  </p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img
-                      class="img-fluid"
-                      src="Images/icons/oxygen.webp"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>Oxygen Ambulance</p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img
-                      class="img-fluid"
-                      src="Images/icons/ventilator.webp"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>Ventilator Ambulance</p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="category-container">
-                <div class="category-icon">
-                  <a href="#"
-                    ><img
-                      class="img-fluid"
-                      src="Images/icons/freezer.webp"
-                      alt=""
-                  /></a>
-                </div>
-                <div class="category-text">
-                  <p>Freezer Ambulance</p>
-                  <div class="category-call">
-                    <a href="tel:9920777780">Call Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Services
+                </li>
+              </ol>
+            </nav>
           </div>
         </div>
       </div>
     </div>
+    <!--End breadcrumb area-->
 
     <!-- Service Section -->
     <div class="container-fluid service-section">
@@ -215,14 +97,14 @@
         <div class="row">
           <div class="col-12 top-section">
             <div class="row">
-              <div class="col-6 left-section">
+              <div class="col-12 left-section">
                 <p class="highlight-text-1">Ambulance Service We Provide</p>
                 <h2>
-                  Ambulance Service Categories in Lucknow – Road, Train, Air,
-                  Cardiac & More
+                  Ambulance Service Categories in Lucknow<br />
+                  – Road, Train, Air, Cardiac & More
                 </h2>
               </div>
-              <div class="col-6 right-section">
+              <div class="col-12 right-section">
                 <p>
                   We provide complete ambulance services in Lucknow with
                   multiple categories to serve every need. Our fleet includes
@@ -255,7 +137,12 @@
                     transport during critical emergencies.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -278,7 +165,12 @@
                     during transport.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -297,7 +189,12 @@
                     transfer anytime.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -320,7 +217,12 @@
                     monitoring during emergencies.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -342,7 +244,12 @@
                     transport of deceased persons with complete support.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -364,7 +271,12 @@
                     during transport or until last rites, available 24/7.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -386,7 +298,12 @@
                     for long-distance patient transfers across cities.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -408,7 +325,12 @@
                     with proper preservation and care during long routes.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
+                    </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -427,90 +349,12 @@
                     conditions.
                   </p>
                   <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
-                    <a class="btn-style btn-style-1" href="tel:9920777780">
-                      <span>Call Now</span>
+                    <a
+                      class="btn-style"
+                      href="https://shahambulanceservice.in/contact-us.php"
+                    >
+                      Explore Services
                     </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <a href="">
-                    <img class="img-fluid" src="Images/icons/air.webp" alt="" />
-                  </a>
-                  <h3>Air Ambulance</h3>
-                  <p>
-                    Fast air ambulance service in Lucknow for emergency patient
-                    transfer with advanced life-saving facilities nationwide.
-                  </p>
-                  <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
-                    <a class="btn-style btn-style-1" href="tel:9920777780">
-                      <span>Call Now</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <a href="">
-                    <img
-                      class="img-fluid"
-                      src="Images/icons/train.webp"
-                      alt=""
-                    />
-                  </a>
-                  <h3>Train Ambulance</h3>
-                  <p>
-                    Affordable train ambulance service from Lucknow for
-                    long-distance medical transfers with ICU setup and medical
-                    staff.
-                  </p>
-                  <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
-                    <a class="btn-style btn-style-1" href="tel:9920777780">
-                      <span>Call Now</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <a href="">
-                    <img
-                      class="img-fluid"
-                      src="Images/icons/Event.webp"
-                      alt=""
-                    />
-                  </a>
-                  <h3>Ambulance for Events</h3>
-                  <p>
-                    Event ambulance service in Lucknow for gatherings, sports,
-                    and functions to ensure quick emergency medical support
-                    on-site.
-                  </p>
-                  <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
-                    <a class="btn-style btn-style-1" href="tel:9920777780">
-                      <span>Call Now</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <a href="">
-                    <img class="img-fluid" src="Images/icons/BLS.webp" alt="" />
-                  </a>
-                  <h3>Basic Life Support (BLS) Ambulance</h3>
-                  <p>
-                    Affordable BLS ambulance service in Lucknow for non-critical
-                    patients, ensuring safe transport with basic medical support
-                    and trained attendants.
-                  </p>
-                  <div class="highlight-btn">
-                    <a class="btn-style" href="#"> Explore Services </a>
                     <a class="btn-style btn-style-1" href="tel:9920777780">
                       <span>Call Now</span>
                     </a>
@@ -522,124 +366,7 @@
         </div>
       </div>
     </div>
-
-    <!-- Why Choose Section -->
-    <div class="container-fluid choose-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 top-section">
-            <div class="col-12 text-section">
-              <p class="highlight-text-1">Why Choose Us</p>
-              <h2>
-                Why Choose Our Ambulance Service<br />
-                in Lucknow
-              </h2>
-              <p>
-                We provide 24/7 ambulance services in Lucknow with fast
-                response, trained staff, and advanced medical equipment. From
-                ICU and ventilator support to air, train, and road ambulance
-                services, we ensure safe, reliable, and affordable patient
-                transport anytime, anywhere.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 bottom-section">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
-                  </div>
-                  <h3>24/7 Availability</h3>
-                  <p>
-                    Get ambulance service in Lucknow round the clock with
-                    immediate response and emergency support, ensuring patient
-                    care without delays.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/advance.png"
-                      alt=""
-                    />
-                  </div>
-                  <h3>Advanced Ambulances</h3>
-                  <p>
-                    Our ICU, ventilator, oxygen, and cardiac ambulances in
-                    Lucknow are fully equipped to handle critical situations
-                    with expert medical staff.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/reliable.png"
-                      alt=""
-                    />
-                  </div>
-                  <h3>Affordable & Reliable</h3>
-                  <p>
-                    We provide cost-effective ambulance services in Lucknow with
-                    transparent charges per km and safe, reliable patient
-                    transport.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 mt-custom">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/experience.png"
-                      alt=""
-                    />
-                  </div>
-                  <h3>Experienced Medical Team</h3>
-                  <p>
-                    Our trained doctors, paramedics, and nursing staff ensure
-                    professional care and support during every emergency
-                    transfer.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 mt-custom">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img class="img-fluid" src="Images/Home/india.png" alt="" />
-                  </div>
-                  <h3>Wide Coverage Across Lucknow</h3>
-                  <p>
-                    We provide ambulance services across every corner of
-                    Lucknow, ensuring quick reach and smooth patient transport
-                    to hospitals.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 mt-custom">
-                <div class="service-container">
-                  <div class="icon-bg choose-us-icon">
-                    <img class="img-fluid" src="Images/Home/fast.png" alt="" />
-                  </div>
-                  <h3>Fast & Safe Transfers</h3>
-                  <p>
-                    With GPS-enabled ambulances and skilled drivers, we
-                    guarantee timely arrivals and safe transportation, even in
-                    critical emergencies.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Service Section End -->
 
     <!-- Process Section -->
     <div class="container-fluid process-section">
@@ -664,11 +391,7 @@
               <div class="card">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/booking.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Easy Booking</h4>
@@ -682,11 +405,7 @@
               <div class="card-2">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/quick_response.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Quick Response</h4>
@@ -700,11 +419,7 @@
               <div class="card">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/experience.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Skilled Team</h4>
@@ -718,11 +433,7 @@
               <div class="card-2">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/modern_fleet.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Modern Fleet</h4>
@@ -736,7 +447,7 @@
               <div class="card">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img class="img-fluid" src="Images/Home/fast.png" alt="" />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Safe Transfer</h4>
@@ -764,11 +475,7 @@
               <div class="card">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/affordable_pricing.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Fair Pricing</h4>
@@ -782,11 +489,7 @@
               <div class="card-2">
                 <div class="row">
                   <div class="col-3 icon-bg choose-us-icon">
-                    <img
-                      class="img-fluid"
-                      src="Images/Home/protection.png"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
                   </div>
                   <div class="col-9">
                     <h4>Complete Care</h4>
@@ -802,74 +505,104 @@
         </div>
       </div>
     </div>
+    <!-- Process Section End -->
 
-    <!-- Testinomial Section -->
-    <div class="container-fluid testinomial-section">
+    <!-- Gallery Section -->
+    <div class="container-fluid gallery-section">
       <div class="container">
         <div class="row">
-          <div class="top-section">
-            <p class="highlight-text-1">Why Choose Us</p>
-            <h2>What clients say about our Ambulance services</h2>
+          <div class="col-12 top-section">
+            <div class="row">
+              <p class="highlight-text-1">Our Gallery</p>
+              <h2>
+                Ambulance Service Categories in Lucknow<br />
+                – Road, Train, Air, Cardiac & More
+              </h2>
+            </div>
           </div>
-          <div class="bottom-section">
-            <div class="carousel-custom">
+          <div class="bottom-section" id="bootstrap-image-gallery">
+            <div class="col-12 vertical-img">
               <a
-                class="carousel-control-prev"
-                href="#testimonialCarousel"
-                role="button"
-                data-bs-slide="prev"
+                class="lg-item"
+                data-lg-size="1600-718"
+                data-src="Images/Gallery/gallery-1.jpeg"
               >
-                <i class="fa-solid fa-arrow-left"></i>
-                <span class="visually-hidden">Previous</span>
+                <img
+                  src="Images/Gallery/gallery-1.jpeg"
+                  class="img-fluid"
+                  alt="Boat on Calm Water"
+                />
               </a>
               <a
-                class="carousel-control-next"
-                href="#testimonialCarousel"
-                role="button"
-                data-bs-slide="next"
+                class="lg-item"
+                data-lg-size="1280-960"
+                data-src="Images/Gallery/gallery-2.jpeg"
               >
-                <i class="fa-solid fa-arrow-right"></i>
-                <span class="visually-hidden">Next</span>
+                <img
+                  src="Images/Gallery/gallery-2.jpeg"
+                  class="img-fluid"
+                  alt="Mountains in the Clouds"
+                />
               </a>
-
-              <div
-                id="testimonialCarousel"
-                class="carousel slide"
-                data-bs-ride="carousel"
+              <a
+                class="lg-item"
+                data-lg-size="1600-718"
+                data-src="Images/Gallery/gallery-4.jpeg"
               >
-                <div class="carousel-inner text-center">
-                  <div class="carousel-item active">
-                    <p class="review">
-                      "Shah Ambulance Service provided immediate assistance when
-                      we needed an ICU ambulance for my father. The staff was
-                      well-trained, and the ambulance was fully equipped. Highly
-                      recommended!"
-                    </p>
-                    <h5>Aman Kumar</h5>
-                    <p>Kurla, Mumbai</p>
-                  </div>
-                  <div class="carousel-item">
-                    <p class="review">
-                      "Extraordinary, most sympathetic pan haul human being
-                      attitude your doctor high skills active in trauma as well
-                      as routine treatment for needy patients Dr. Zubair having
-                      knowledge"
-                    </p>
-                    <h5>Nishant Patel</h5>
-                    <p>Bandra, Mumbai</p>
-                  </div>
-                  <div class="carousel-item">
-                    <p class="review">
-                      "New ambulance look nice staff is treating very good. Book
-                      now Jan Sahara cardiac ambulance service. I had gone
-                      Lilavati to Lucknow inside the ambulance sleeper was
-                      available nice journey"
-                    </p>
-                    <h5>MD Anis</h5>
-                    <p>Nerul, Navi Mumbai</p>
-                  </div>
-                </div>
-              </div>
+                <img
+                  src="Images/Gallery/gallery-4.jpeg"
+                  class="img-fluid"
+                  alt="Mountains in the Clouds"
+                />
+              </a>
+            </div>
+            <div class="col-12">
+              <a
+                class="lg-item"
+                data-lg-size="718-1315"
+                data-src="Images/Gallery/gallery-3.jpeg"
+              >
+                <img
+                  src="Images/Gallery/gallery-3.jpeg"
+                  class="img-fluid"
+                  alt="Mountains in the Clouds"
+                />
+              </a>
+            </div>
+            <div class="col-12 vertical-img">
+              <a
+                class="lg-item"
+                data-lg-size="1600-718"
+                data-src="Images/Gallery/gallery-1.jpeg"
+              >
+                <img
+                  src="Images/Gallery/gallery-5.jpeg"
+                  class="img-fluid"
+                  alt="Boat on Calm Water"
+                />
+              </a>
+              <a
+                class="lg-item"
+                data-lg-size="1600-718"
+                data-src="Images/Gallery/gallery-4.jpeg"
+              >
+                <img
+                  src="Images/Gallery/gallery-7.jpeg"
+                  class="img-fluid"
+                  alt="Mountains in the Clouds"
+                />
+              </a>
+              <a
+                class="lg-item"
+                data-lg-size="1280-960"
+                data-src="Images/Gallery/gallery-2.jpeg"
+              >
+                <img
+                  src="Images/Gallery/gallery-6.jpeg"
+                  class="img-fluid"
+                  alt="Mountains in the Clouds"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -1074,6 +807,7 @@
         </div>
       </div>
     </div>
+    <!-- FAQ section End-->
 
     <!-- Footer section -->
     <div id="footer"></div>
@@ -1084,5 +818,13 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <!-- LightGallery Core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery/lightgallery.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+    <script src="JS/service.js"></script>
   </body>
 </html>

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="CSS/about.css" />
 
     <!-- Favi Icon -->
+    <link rel="icon" href="Images/Home/fav-icon.png" type="image/png" />
+
+    <!-- Fontawesome Icon -->
     <link
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css"
@@ -30,6 +33,7 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="JS/preloader.js"></script>
     <script defer>
       document.addEventListener("DOMContentLoaded", function () {
         $("#header").load("header.html");
@@ -38,6 +42,18 @@
     </script>
   </head>
   <body>
+    <!-- Pre Loader -->
+    <div class="preloader-activate preloader-active preloader-loaded">
+      <div class="preloader-area-wrap">
+        <div
+          class="spinner d-flex justify-content-center align-items-center h-100"
+        >
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+      </div>
+    </div>
     <!-- Header Section -->
     <div id="header"></div>
 
@@ -52,7 +68,7 @@
       <div class="container content">
         <div class="row banner">
           <div class="col-12">
-            <p class="highlight-text-1">About Us</p>
+            <p class="highlight-text">About Us</p>
             <h2>About <span>Medic Ambulance</span></h2>
           </div>
           <div class="col-12">
@@ -455,7 +471,6 @@
     <!-- Footer section -->
     <div id="footer"></div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

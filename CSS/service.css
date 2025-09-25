@@ -1,0 +1,65 @@
+/*=============================================
+   service-section       
+=============================================*/
+.service-section {
+  background-color: var(--thm-white);
+  padding: 108px 0px 124px;
+}
+
+.service-section .top-section .left-section .highlight-text-1 {
+  margin: auto;
+}
+.service-section .top-section .left-section h2 {
+  text-align: center;
+  margin: 10px 0px 8px;
+}
+.service-section .top-section .right-section p {
+  text-align: center;
+}
+.service-section .bottom-section .service-container {
+  background-color: #fff5eb;
+  border: 1px solid #f6e2d5;
+}
+/*=============================================
+    FAQ Section
+=============================================*/
+.faq-section {
+  padding: 124px 0px 120px;
+}
+/*=============================================
+    FAQ Section End
+=============================================*/
+
+/*=============================================
+    Gallery Section
+=============================================*/
+.gallery-section {
+  background-color: #fff5eb;
+  padding: 124px 0px 108px;
+}
+.gallery-section .top-section {
+  margin-bottom: 50px;
+}
+.gallery-section .top-section .highlight-text-1 {
+  margin: auto;
+}
+.gallery-section .top-section h2 {
+  margin: 10px 0px 8px;
+}
+.gallery-section .bottom-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px 20px;
+}
+.gallery-section .bottom-section img {
+  border-radius: 5px;
+}
+.gallery-section .bottom-section img:hover {
+  cursor: pointer;
+}
+.gallery-section .bottom-section .vertical-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
