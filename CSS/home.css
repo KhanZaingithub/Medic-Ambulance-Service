@@ -343,6 +343,12 @@
   .banner-section .right-section {
     margin-top: 50px;
   }
+  .banner-section .left-section .highlight-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .category-section {
     padding: 75px 10px;
   }
