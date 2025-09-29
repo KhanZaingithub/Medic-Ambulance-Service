@@ -478,11 +478,6 @@ p {
   }
 }
 
-@media (max-width: 1024px) {
-  .slider-container {
-    height: 517px;
-  }
-}
 @media (max-width: 767px) {
   .slider {
     animation: scrollUp 8s linear infinite;
@@ -560,6 +555,25 @@ p {
     .highlight-btn
     .btn-style {
     width: fit-content;
+  }
+  .process-section {
+    padding: 60px 30px 100px;
+  }
+  .slider-container {
+    height: 517px;
+    margin-top: 50px;
+  }
+  .process-section .right-section .text {
+    text-align: center;
+  }
+  .faq-section {
+    padding: 60px 30px 100px;
+  }
+  .faq-section .faq-bottom .accordion {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: start;
+    gap: 20px 0px;
   }
 }
 

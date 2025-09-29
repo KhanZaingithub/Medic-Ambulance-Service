@@ -50,7 +50,7 @@
 }
 
 /*=============================================
-   banner-section       
+   Category-section       
 =============================================*/
 .category-section {
   padding: 116px 0px 124px;
@@ -292,7 +292,41 @@
   .category-section .category-wrapper .category-container {
     width: calc((100% - 30px) / 3);
   }
-  .service-section {
+  .choose-section {
     padding: 100px 30px;
+  }
+  .choose-section .top-section .text-section {
+    width: 100%;
+  }
+  .choose-section .top-section .text-section h2 br {
+    display: contents;
+  }
+  .choose-section .bottom-section > .row {
+    gap: 30px 0px;
+  }
+  .choose-section .bottom-section .mt-custom {
+    margin-top: 0px;
+  }
+  .process-section .right-section h2 {
+    text-align: center;
+  }
+  .process-section .right-section .text .highlight-text-1 {
+    margin: auto;
+  }
+  .process-section .right-section .text p:last-of-type {
+    text-align: center;
+  }
+  .testinomial-section {
+    padding: 100px 30px;
+  }
+  .testinomial-section .bottom-section .carousel-custom {
+    width: 90%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    bottom: 30px;
+  }
+  .carousel-control-next {
+    left: 53%;
   }
 }
