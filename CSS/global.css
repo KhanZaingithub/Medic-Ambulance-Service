@@ -518,7 +518,11 @@ p {
     max-width: 1240px;
   }
 }
+/* Tablet */
 @media screen and (max-width: 1025px) {
+  h2 {
+    font-size: 42px;
+  }
   .spacing {
     padding: 80px 30px;
   }
@@ -529,8 +533,37 @@ p {
     padding-right: 35px;
     line-height: 35px;
   }
+  .service-section {
+    padding: 100px 30px;
+  }
+  .service-section .top-section .left-section .highlight-text-1 {
+    margin: auto;
+  }
+  .service-section .top-section .left-section h2 {
+    text-align: center;
+    margin: 10px 0px 8px;
+  }
+  .service-section .top-section .right-section p {
+    text-align: center;
+  }
+  .service-section .bottom-section .row {
+    gap: 20px 0px;
+  }
+  .service-section .bottom-section .service-container .highlight-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+  }
+  .service-section
+    .bottom-section
+    .service-container
+    .highlight-btn
+    .btn-style {
+    width: fit-content;
+  }
 }
 
+/* Mobile */
 @media screen and (max-width: 767px) {
   .spacing {
     padding: 60px 15px;

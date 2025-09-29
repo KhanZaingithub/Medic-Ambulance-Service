@@ -272,3 +272,27 @@
 /*=============================================
     Testinomial section End
 =============================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .banner-section {
+    padding: 68px 30px 88px;
+  }
+  .banner-section .right-section {
+    margin-top: 50px;
+  }
+  .category-section {
+    padding: 100px 30px;
+  }
+  .category-section .top-section {
+    width: 100%;
+  }
+  .category-section .category-wrapper {
+    gap: 40px 15px;
+  }
+  .category-section .category-wrapper .category-container {
+    width: calc((100% - 30px) / 3);
+  }
+  .service-section {
+    padding: 100px 30px;
+  }
+}
