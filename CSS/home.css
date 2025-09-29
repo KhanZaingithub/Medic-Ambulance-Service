@@ -330,3 +330,23 @@
     left: 53%;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .banner-section {
+    padding: 68px 10px 88px;
+  }
+  .banner-section .left-section h1 {
+    font-size: 40px;
+    margin: 0px 0px 10px;
+    line-height: 55px;
+  }
+  .banner-section .right-section {
+    margin-top: 50px;
+  }
+  .category-section {
+    padding: 75px 10px;
+  }
+  .category-section .top-section {
+    width: 100%;
+  }
+}

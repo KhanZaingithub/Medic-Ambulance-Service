@@ -605,7 +605,6 @@
     font-size: 18px;
     line-height: 35px;
   }
-
   .scroll-top {
     width: 50px;
     height: 50px;
@@ -674,5 +673,11 @@
   .floating__rght__bx .first-icon .icnbx,
   .floating__rght__bx .second-icon .icnbx.social {
     background-size: 28px;
+  }
+
+  .banner-section .left-section h1 {
+    font-size: 40px;
+    margin: 0px 0px 10px;
+    line-height: 55px;
   }
 }
