@@ -589,6 +589,12 @@ p {
     align-items: start;
     gap: 20px 0px;
   }
+  .breadcrumb-section {
+    padding: 90px 0px;
+  }
+  .breadcrumb-section .content h2 {
+    font-size: 45px;
+  }
 }
 
 /* Mobile */
