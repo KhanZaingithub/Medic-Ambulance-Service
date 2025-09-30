@@ -41,6 +41,7 @@ h1 {
 }
 h2 {
   font-size: 45px;
+  line-height: 60px;
   text-align: center;
   font-weight: 600;
 }
@@ -517,6 +518,7 @@ p {
 @media screen and (max-width: 1025px) {
   h2 {
     font-size: 42px;
+    line-height: 55px;
   }
   .spacing {
     padding: 80px 30px;
@@ -566,6 +568,18 @@ p {
   .process-section .right-section .text {
     text-align: center;
   }
+  .process-section .right-section h2 {
+    text-align: center;
+  }
+  .process-section .right-section .text .highlight-text-1 {
+    margin: auto;
+  }
+  .process-section .right-section .text p:last-of-type {
+    text-align: center;
+  }
+  .process-section .right-section .text {
+    padding-right: 0px;
+  }
   .faq-section {
     padding: 60px 30px 100px;
   }
@@ -580,7 +594,8 @@ p {
 /* Mobile */
 @media screen and (max-width: 767px) {
   h2 {
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 38px;
   }
   .spacing {
     padding: 60px 15px;
@@ -596,18 +611,45 @@ p {
   .btn-style::before {
     border-radius: 5px;
   }
-  .banner-section .left-section .highlight-btn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .service-section {
+    padding: 75px 10px;
   }
-  .banner {
-    position: relative;
+  .service-section .top-section .right-section p {
+    font-size: 16px;
   }
-  .banner::before {
-    content: "";
-    position: absolute;
-    inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
-    background: rgba(0, 0, 0, 0.5); /* black overlay at 50% opacity */
+  .service-section .bottom-section {
+    margin-top: 30px;
+  }
+  .service-section .bottom-section .service-container h3 {
+    font-size: 22px;
+  }
+  .service-section .bottom-section .service-container .highlight-btn {
+    gap: 0px;
+    justify-content: center;
+  }
+  .service-section
+    .bottom-section
+    .service-container
+    .highlight-btn
+    .btn-style-1 {
+    margin-left: 15px;
+  }
+  .process-section {
+    padding: 60px 10px 75px;
+  }
+  .process-section .right-section .text p:last-of-type {
+    font-size: 16px;
+  }
+  .faq-section {
+    padding: 60px 10px 75px;
+  }
+  .faq-section .faq-bottom {
+    margin-top: 30px;
+  }
+  .faq-section .faq-bottom .accordion .accordion-item .accordion-button {
+    font-size: 18px;
+  }
+  .accordion-body {
+    font-size: 16px;
   }
 }
