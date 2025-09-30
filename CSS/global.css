@@ -464,22 +464,22 @@ p {
   position: relative;
 }
 
-.process-section .left-section .slider {
+/* .process-section .left-section .slider {
   display: flex;
   flex-direction: column;
   animation: scrollUp 20s linear infinite;
-}
+} */
 
-@keyframes scrollUp {
+/* @keyframes scrollUp {
   0% {
     transform: translateY(0);
   }
   100% {
     transform: translateY(-50%);
   }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .slider {
     animation: scrollUp 8s linear infinite;
   }
@@ -495,7 +495,7 @@ p {
       transform: translate3d(0, -44%, 0);
     }
   }
-}
+} */
 /*=============================================
   Process section End      
 =============================================*/
@@ -639,6 +639,19 @@ p {
   }
   .process-section .right-section .text p:last-of-type {
     font-size: 16px;
+  }
+  .process-section .left-section .slide {
+    padding-left: 0px;
+  }
+  .process-section .left-section .slide .card,
+  .process-section .left-section .slide .card-2 {
+    padding: 20px 10px;
+    width: 100%;
+  }
+  .process-section .left-section .slide .card .icon-bg,
+  .process-section .left-section .slide .card-2 .icon-bg {
+    padding: 12px;
+    width: 60px;
   }
   .faq-section {
     padding: 60px 10px 75px;
