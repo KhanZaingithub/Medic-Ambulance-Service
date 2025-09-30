@@ -328,9 +328,9 @@
     padding: 68px 10px 88px;
   }
   .banner-section .left-section h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0px 0px 10px;
-    line-height: 55px;
+    line-height: 50px;
   }
   .banner-section .right-section {
     margin-top: 50px;
@@ -339,8 +339,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 15px 0px;
   }
-
   .category-section {
     padding: 75px 10px;
   }

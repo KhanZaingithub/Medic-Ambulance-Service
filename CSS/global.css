@@ -624,8 +624,9 @@ p {
     font-size: 22px;
   }
   .service-section .bottom-section .service-container .highlight-btn {
-    gap: 0px;
+    gap: 20px 0px;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .service-section
     .bottom-section
