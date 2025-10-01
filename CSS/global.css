@@ -286,7 +286,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   opacity: 0.6;
   z-index: 1;
 }
@@ -307,7 +307,7 @@ p {
   margin-bottom: 15px;
 }
 .breadcrumb-section .content h2 span {
-  color: var(--thm-primary);
+  color: var(--thm-white);
 }
 .breadcrumb {
   background: transparent;
@@ -322,7 +322,7 @@ p {
   color: var(--thm-primary);
 }
 .breadcrumb .breadcrumb-item.active {
-  color: var(--thm-primary);
+  color: var(--thm-white);
   font-weight: 600;
 }
 .breadcrumb-item + .breadcrumb-item::before {
