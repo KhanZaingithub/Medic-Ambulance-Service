@@ -96,3 +96,29 @@
     padding: 100px 30px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .breadcrumb-section .content h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 8px;
+  }
+  .breadcrumb .breadcrumb-item a {
+    font-size: 16px;
+  }
+  .service-section {
+    padding: 75px 10px;
+  }
+  .gallery-section {
+    padding: 75px 10px;
+  }
+  .gallery-section .top-section {
+    margin-bottom: 30px;
+  }
+  .gallery-section .bottom-section div:nth-child(3) {
+    gap: 10px 0px;
+  }
+  .faq-section {
+    padding: 60px 10px 75px;
+  }
+}
