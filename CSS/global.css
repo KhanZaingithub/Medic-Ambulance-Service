@@ -595,6 +595,13 @@ p {
   .breadcrumb-section .content h2 {
     font-size: 45px;
   }
+  .service-section
+    .bottom-section
+    .service-container
+    .highlight-btn
+    .btn-style {
+    padding: 8px 20px;
+  }
 }
 
 /* Mobile */
