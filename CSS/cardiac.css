@@ -1,0 +1,207 @@
+/*=============================================
+   breadcrumb-section       
+=============================================*/
+.breadcrumb-section .overlay {
+  background: #fff5eb;
+  opacity: 0.6;
+}
+.breadcrumb-section .content h2,
+.breadcrumb .breadcrumb-item a {
+  color: var(--thm-black);
+}
+.breadcrumb-section .content h2 span,
+.breadcrumb .breadcrumb-item.active,
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--thm-primary);
+}
+/*=============================================
+   breadcrumb-section End    
+=============================================*/
+
+/*=============================================
+   detail-section       
+=============================================*/
+.detail-section {
+  background-color: #fff;
+  padding: 124px 0px 108px 0px;
+}
+.detail-section .left-section {
+  align-content: center;
+}
+.detail-section .left-section .cont {
+  padding-right: 10px;
+}
+.detail-section .left-section img {
+  border-radius: 5px;
+}
+.detail-section .right-section .cont {
+  padding-left: 10px;
+}
+.detail-section .right-section h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 55px;
+  margin: 10px 0px 8px;
+}
+.detail-section .right-section p:first-of-type {
+  font-size: 16px;
+}
+.detail-section .right-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.detail-section .right-section p:last-of-type {
+  margin-bottom: 0px;
+}
+/*=============================================
+   detail-section End     
+=============================================*/
+
+/*=============================================
+   choose-section      
+=============================================*/
+.choose-section {
+  padding: 80px 0px 124px;
+}
+.choose-section .top-section h2 {
+  margin-bottom: 8px;
+}
+.choose-section .top-section p {
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+.choose-section .bottom-section {
+  margin-top: 50px;
+}
+.choose-section .bottom-section .mt-custom {
+  margin-top: 30px;
+}
+.choose-section .bottom-section .service-container {
+  background-color: #fefefe;
+  padding: 25px 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 12px 0px rgba(206, 196, 196, 0.45);
+  text-align: center;
+}
+.choose-section .bottom-section .service-container .icon-bg {
+  padding: 13px;
+  background: linear-gradient(180deg, #fff5eb 0%, #ffffff 100%);
+  border-radius: 100%;
+  width: 90px;
+  margin: auto;
+}
+.choose-section .bottom-section .service-container h3 {
+  margin: 10px 0px 5px;
+  color: var(--thm-primary);
+}
+/*=============================================
+   choose-section End 
+=============================================*/
+/*=============================================
+   category-section      
+=============================================*/
+.category-section {
+  padding: 124px 0px;
+  background: #fff5eb;
+}
+.category-section .top-section h2 {
+  margin-bottom: 5px;
+}
+.category-section .top-section p:last-of-type {
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+/*=============================================
+   category-section End     
+=============================================*/
+
+/*=============================================
+   key-section      
+=============================================*/
+.key-section {
+  padding: 124px 0px;
+}
+.key-section .left-section {
+  align-content: center;
+}
+.key-section .left-section img {
+  border-radius: 5px;
+}
+.key-section .left-section .cont {
+  padding-right: 10px;
+}
+.key-section .right-section .cont {
+  padding-left: 10px;
+}
+.key-section .right-section .cont h2 {
+  text-align: left;
+  margin: 0px 0px 8px;
+}
+.key-section .right-section .cont p {
+  font-size: 18px;
+}
+.key-section .right-section .check-section {
+  margin-top: 20px;
+  gap: 15px 0px;
+}
+.key-section .right-section .check-section .bullet-point {
+  display: flex;
+}
+.key-section .right-section .check-section .bullet-point img {
+  width: 30px;
+}
+.key-section .right-section .check-section .bullet-point h4 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-left: 10px;
+}
+/*=============================================
+   key-section end      
+=============================================*/
+/*=============================================
+   faq-section      
+=============================================*/
+.faq-section {
+  padding: 124px 0px 108px;
+}
+/*=============================================
+   faq-section end
+=============================================*/
+
+/*=============================================
+   cta-section
+=============================================*/
+.cta-section {
+  padding: 80px 0px 124px;
+  background: #fff5eb;
+}
+.cta-section .cta-top h2 {
+  margin-bottom: 8px;
+}
+.cta-section .cta-top p {
+  font-size: 18px;
+  text-align: center;
+}
+.cta-section .cta-bottom {
+  margin-top: 30px;
+}
+.cta-section .cta-bottom .highlight-btn {
+  text-align: center;
+}
+.cta-section .cta-bottom .highlight-btn .btn-style-1 {
+  position: relative;
+  margin-left: 20px;
+  background-color: var(--thm-bg-1);
+  color: var(--thm-white);
+}
+.cta-section .cta-bottom .highlight-btn .btn-style-1::before {
+  background-color: var(--thm-primary);
+}
+
+/*=============================================
+   cta-section end
+=============================================*/
