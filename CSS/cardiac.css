@@ -1,6 +1,10 @@
 /*=============================================
    breadcrumb-section       
 =============================================*/
+.breadcrumb-section .content h2 {
+  font-size: 45px;
+  line-height: 60px;
+}
 .breadcrumb-section .overlay {
   background: #fff5eb;
   opacity: 0.6;
@@ -38,7 +42,7 @@
   padding-left: 10px;
 }
 .detail-section .right-section h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 55px;
   margin: 10px 0px 8px;
@@ -113,6 +117,12 @@
   text-align: center;
   font-size: 18px;
 }
+.category-section .category-wrapper .category-container {
+  width: calc(100% / 5 - 30px);
+}
+.category-section .category-wrapper .category-container .category-text p {
+  font-size: 20px;
+}
 /*=============================================
    category-section End     
 =============================================*/
@@ -138,26 +148,33 @@
 .key-section .right-section .cont h2 {
   text-align: left;
   margin: 0px 0px 8px;
+  font-size: 40px;
+  line-height: 55px;
 }
 .key-section .right-section .cont p {
   font-size: 18px;
 }
-.key-section .right-section .check-section {
-  margin-top: 20px;
-  gap: 15px 0px;
+.key-section .check-section {
+  margin-top: 50px;
+  gap: 20px 0px;
 }
-.key-section .right-section .check-section .bullet-point {
+.key-section .check-section .bullet-point {
   display: flex;
+  flex-wrap: wrap;
 }
-.key-section .right-section .check-section .bullet-point img {
+.key-section .check-section .bullet-point img {
   width: 30px;
 }
-.key-section .right-section .check-section .bullet-point h4 {
+.key-section .check-section .bullet-point h4 {
   margin-bottom: 0px;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   padding-left: 10px;
+}
+.key-section .check-section .bullet-point p {
+  font-size: 18px;
+  margin: 5px 0px 0px;
 }
 /*=============================================
    key-section end      
