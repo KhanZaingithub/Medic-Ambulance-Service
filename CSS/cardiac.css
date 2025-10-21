@@ -78,8 +78,8 @@
 .choose-section .bottom-section {
   margin-top: 50px;
 }
-.choose-section .bottom-section .mt-custom {
-  margin-top: 30px;
+.choose-section .bottom-section > .row {
+  gap: 30px 0px;
 }
 .choose-section .bottom-section .service-container {
   background-color: #fefefe;
@@ -222,3 +222,60 @@
 /*=============================================
    cta-section end
 =============================================*/
+
+@media screen and (max-width: 1025px) {
+  .detail-section {
+    padding: 100px 30px;
+  }
+  .detail-section .right-section {
+    margin-top: 50px;
+  }
+  .detail-section .right-section h1 {
+    font-size: 42px;
+  }
+  .detail-section .left-section .cont {
+    padding-right: 0px;
+  }
+  .detail-section .right-section .cont {
+    padding-left: 0px;
+  }
+  .choose-section {
+    padding: 60px 30px 100px;
+  }
+  .category-section {
+    padding: 100px 30px;
+  }
+  .category-section .top-section {
+    width: 100%;
+  }
+  .category-section .category-wrapper .category-container {
+    width: calc((100% - 30px) / 3);
+  }
+  .category-section .category-wrapper {
+    gap: 40px 15px;
+  }
+  .key-section {
+    padding: 100px 30px;
+  }
+  .key-section .right-section {
+    margin-top: 50px;
+  }
+  .key-section .left-section .cont {
+    padding-right: 0px;
+  }
+  .key-section .right-section .cont {
+    padding-left: 0px;
+  }
+  .key-section .check-section {
+    margin-top: 20px;
+  }
+  .faq-section {
+    padding: 100px 30px;
+  }
+  .cta-section {
+    padding: 60px 30px 100px;
+  }
+  .cta-section .cta-bottom {
+    margin-top: 20px;
+  }
+}
