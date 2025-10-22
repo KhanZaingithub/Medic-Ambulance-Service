@@ -279,3 +279,87 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .breadcrumb-section .content h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 8px;
+  }
+
+  .detail-section {
+    padding: 75px 10px;
+  }
+  .detail-section .right-section {
+    margin-top: 30px;
+  }
+  .detail-section .right-section p:first-of-type {
+    font-size: 14px;
+  }
+  .detail-section .right-section h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .detail-section .right-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .choose-section {
+    padding: 60px 10px 75px;
+  }
+  .choose-section .top-section p {
+    font-size: 16px;
+  }
+  .choose-section .bottom-section {
+    margin-top: 30px;
+  }
+  .category-section {
+    padding: 75px 10px;
+  }
+  .category-section .top-section p:last-of-type {
+    font-size: 16px;
+  }
+  .highlight-text {
+    font-size: 14px;
+  }
+
+  .category-section .category-wrapper {
+    margin-top: 30px;
+    gap: 40px 15px;
+    justify-content: center;
+  }
+  .category-section .category-wrapper .category-container {
+    width: calc((100% - 30px) / 2);
+  }
+  .category-section .category-wrapper .category-container .category-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .key-section {
+    padding: 75px 10px;
+  }
+  .key-section .right-section {
+    margin-top: 30px;
+  }
+  .key-section .right-section .cont h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .key-section .right-section .cont p {
+    font-size: 16px;
+  }
+  .key-section .check-section .bullet-point h4 {
+    font-size: 19px;
+  }
+  .faq-section {
+    padding: 75px 10px;
+  }
+  .cta-section {
+    padding: 60px 10px 75px;
+  }
+}
