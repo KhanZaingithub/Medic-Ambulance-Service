@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/lightgallery/css/lightgallery-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/global.css" />
     <link rel="stylesheet" href="CSS/service.css" />
 
@@ -38,11 +39,20 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="JS/preloader.js"></script>
     <script defer>
       document.addEventListener("DOMContentLoaded", function () {
         $("#header").load("header.html");
         $("#footer").load("footer.html");
+
+        // Initialize AOS
+        AOS.init({
+          duration: 1200,
+          once: true,
+          easing: "ease-in-out-sine",
+          offset: 110,
+        });
       });
     </script>
   </head>
@@ -73,8 +83,10 @@
       <div class="container content">
         <div class="row banner">
           <div class="col-12">
-            <p class="highlight-text">Ambulance Service We Provide</p>
-            <h2>Services <span>Medic Ambulance</span></h2>
+            <p data-aos="fade-down" data-aos-delay="100" class="highlight-text">
+              Ambulance Service We Provide
+            </p>
+            <h2 data-aos="fade-up">Services <span>Medic Ambulance</span></h2>
           </div>
           <div class="col-12">
             <nav aria-label="breadcrumb">
@@ -98,13 +110,23 @@
           <div class="col-12 top-section">
             <div class="row">
               <div class="col-12 left-section">
-                <p class="highlight-text-1">Ambulance Service We Provide</p>
-                <h2>
+                <p
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  class="highlight-text-1"
+                >
+                  Ambulance Service We Provide
+                </p>
+                <h2 data-aos="fade-up">
                   Ambulance Service Categories in Lucknow<br />
                   – Road, Train, Air, Cardiac & More
                 </h2>
               </div>
-              <div class="col-12 right-section">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-12 right-section"
+              >
                 <p>
                   Our 24/7 ambulance service across Lucknow provides ICU
                   ambulance, ventilator ambulance, oxygen system ambulance
@@ -121,7 +143,7 @@
           </div>
           <div class="col-12 bottom-section">
             <div class="row">
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -150,7 +172,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -179,7 +205,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/ICU.webp" alt="" />
@@ -204,7 +230,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -233,7 +259,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -262,7 +292,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -291,7 +321,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -320,7 +350,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -348,7 +382,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/AC.webp" alt="" />
@@ -545,11 +579,24 @@
         <div class="row">
           <div class="col-12 top-section">
             <div class="row">
-              <p class="highlight-text-1">Our Gallery</p>
-              <h2>Moments That Define Our Ambulance Service Care</h2>
+              <p
+                data-aos="fade-down"
+                data-aos-delay="100"
+                class="highlight-text-1"
+              >
+                Our Gallery
+              </p>
+              <h2 data-aos="fade-up">
+                Moments That Define Our Ambulance Service Care
+              </h2>
             </div>
           </div>
-          <div class="bottom-section" id="bootstrap-image-gallery">
+          <div
+            data-aos="fade"
+            data-aos-delay="100"
+            class="bottom-section"
+            id="bootstrap-image-gallery"
+          >
             <div class="col-lg-12 vertical-img">
               <a
                 class="lg-item"
