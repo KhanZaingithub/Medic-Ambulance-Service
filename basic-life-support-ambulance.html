@@ -19,6 +19,7 @@
       onload="this.onload=null;this.rel='stylesheet'"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/global.css" />
     <link rel="stylesheet" href="CSS/cardiac.css" />
 
@@ -39,11 +40,20 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="JS/preloader.js"></script>
     <script defer>
       document.addEventListener("DOMContentLoaded", function () {
         $("#header").load("header.html");
         $("#footer").load("footer.html");
+
+        // Initialize AOS
+        AOS.init({
+          duration: 1200,
+          once: true,
+          easing: "ease-in-out-sine",
+          offset: 110,
+        });
       });
     </script>
   </head>
@@ -69,8 +79,12 @@
       <div class="container content">
         <div class="row banner">
           <div class="col-12">
-            <p class="highlight-text">Ambulance Service We Provide</p>
-            <h2>Basic Life Support (BLS) <span>Ambulance Service</span></h2>
+            <p data-aos="fade-down" data-aos-delay="100" class="highlight-text">
+              Ambulance Service We Provide
+            </p>
+            <h2 data-aos="fade-up">
+              Basic Life Support (BLS) <span>Ambulance Service</span>
+            </h2>
           </div>
           <div class="col-12">
             <nav aria-label="breadcrumb">
@@ -105,8 +119,14 @@
           </div>
           <div class="col-lg-6 right-section">
             <div class="cont">
-              <p class="highlight-text-1">Expert Care</p>
-              <h1>
+              <p
+                data-aos="fade-down"
+                data-aos-delay="100"
+                class="highlight-text-1"
+              >
+                Expert Care
+              </p>
+              <h1 data-aos="fade" data-aos-delay="100">
                 Reliable BLS Ambulance Service in Lucknow for Safe Patient
                 Transfer
               </h1>
@@ -141,11 +161,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 top-section">
-            <h2>
+            <h2 data-aos="fade-down" data-aos-delay="100">
               Trusted Basic Life Support Ambulance in Lucknow with 24/7 Medical
               Support
             </h2>
-            <p>
+            <p data-aos="fade-up">
               Our BLS ambulances provide reliable and affordable patient
               transfers equipped with oxygen support, basic monitoring systems,
               and trained staff to ensure smooth and safe travel across Lucknow
@@ -154,7 +174,7 @@
           </div>
           <div class="col-12 bottom-section">
             <div class="row">
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img
@@ -171,7 +191,11 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/india.png" alt="" />
@@ -184,7 +208,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/fast.png" alt="" />
@@ -196,7 +220,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/fast.png" alt="" />
@@ -208,7 +232,11 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/fast.png" alt="" />
@@ -221,7 +249,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/fast.png" alt="" />
@@ -246,9 +274,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12 top-section">
-            <p class="highlight-text">Types Of cardiac ambulance</p>
-            <h2>Types of Basic Life Support Ambulance Services in Lucknow</h2>
-            <p>
+            <p data-aos="fade-down" data-aos-delay="100" class="highlight-text">
+              Types Of cardiac ambulance
+            </p>
+            <h2 data-aos="fade-up">
+              Types of Basic Life Support Ambulance Services in Lucknow
+            </h2>
+            <p data-aos="fade" data-aos-delay="100">
               Medic Ambulance Service provides reliable Basic Life Support (BLS)
               ambulance services in Lucknow, offering safe patient transfers,
               trained paramedics, oxygen support, and 24/7 emergency
@@ -438,9 +470,11 @@
       <div class="container">
         <div class="row">
           <div class="col-12 faq-top">
-            <h2>Frequently Asked Questions</h2>
+            <h2 data-aos="fade-down" data-aos-delay="100">
+              Frequently Asked Questions
+            </h2>
           </div>
-          <div class="col-12">
+          <div data-aos="fade" data-aos-delay="100" class="col-12">
             <div class="row faq-bottom">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -633,8 +667,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12 cta-top">
-            <h2>Get Our BLS Ambulance Support Today</h2>
-            <p>
+            <h2 data-aos="fade-down" data-aos-delay="100">
+              Get Our BLS Ambulance Support Today
+            </h2>
+            <p data-aos="fade-up">
               Need quick and safe patient transport? Our Basic Life Support
               (BLS) ambulances are equipped with oxygen, stretcher, and trained
               staff — available 24/7.
