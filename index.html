@@ -13,6 +13,7 @@
       onload="this.onload=null;this.rel='stylesheet'"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="CSS/global.css" />
     <link rel="stylesheet" href="CSS/home.css" />
 
@@ -28,16 +29,27 @@
     />
 
     <!-- JS -->
+
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="JS/preloader.js"></script>
+
     <script defer>
       document.addEventListener("DOMContentLoaded", function () {
         $("#header").load("header.html");
         $("#footer").load("footer.html");
+
+        // Initialize AOS
+        AOS.init({
+          duration: 1200,
+          once: true,
+          easing: "ease-in-out-sine",
+          offset: 100,
+        });
       });
     </script>
   </head>
@@ -63,8 +75,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6 left-section">
-            <p class="highlight-text">Best Ambulance Service</p>
-            <h1>
+            <p data-aos="fade-down" class="highlight-text">
+              Best Ambulance Service
+            </p>
+            <h1 data-aos="fade" data-aos-delay="700">
               24x7 Ambulance Service in Lucknow
               <span>Fast, Reliable & Emergency</span> Care
             </h1>
@@ -86,7 +100,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6 right-section">
+          <div data-aos="fade-left" class="col-md-12 col-lg-6 right-section">
             <img class="img-fluid" src="Images/Home/Ambulanceeee.png" alt="" />
           </div>
         </div>
@@ -98,8 +112,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12 top-section">
-            <p class="highlight-text">Types of Ambulance Services</p>
-            <h2>
+            <p data-aos="fade-down" data-aos-delay="100" class="highlight-text">
+              Types of Ambulance Services
+            </p>
+            <h2 data-aos="fade-up">
               Types of Ambulance Services in Lucknow – 24/7 ICU, Ventilator,
               Cardiac, Oxygen & Patient Transport Support
             </h2>
@@ -214,14 +230,20 @@
         <div class="row">
           <div class="col-12 top-section">
             <div class="row">
-              <div class="col-md-12 col-lg-6 left-section">
+              <div
+                data-aos="fade-right"
+                class="col-md-12 col-lg-6 left-section"
+              >
                 <p class="highlight-text-1">Ambulance Service We Provide</p>
                 <h2>
                   Ambulance Service Categories in Lucknow – Road, Train, Air,
                   Cardiac & More
                 </h2>
               </div>
-              <div class="col-md-12 col-lg-6 right-section">
+              <div
+                data-aos="fade-left"
+                class="col-md-12 col-lg-6 right-section"
+              >
                 <p>
                   We provide complete ambulance services in Lucknow with
                   multiple categories to serve every need. Our fleet includes
@@ -238,7 +260,7 @@
           </div>
           <div class="col-12 bottom-section">
             <div class="row">
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -261,7 +283,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -284,7 +310,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/ICU.webp" alt="" />
@@ -303,7 +329,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -326,7 +352,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -348,7 +378,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -370,7 +400,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -392,7 +422,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -414,7 +448,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/AC.webp" alt="" />
@@ -433,7 +467,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/air.webp" alt="" />
@@ -451,7 +485,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <a href="">
                     <img
@@ -474,7 +512,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img
@@ -497,7 +535,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <a href="">
                     <img class="img-fluid" src="Images/icons/BLS.webp" alt="" />
@@ -528,8 +566,14 @@
         <div class="row">
           <div class="col-12 top-section">
             <div class="col-12 text-section">
-              <p class="highlight-text-1">Why Choose Us</p>
-              <h2>
+              <p
+                data-aos="fade-down"
+                data-aos-delay="100"
+                class="highlight-text-1"
+              >
+                Why Choose Us
+              </p>
+              <h2 data-aos="fade-up">
                 Why Choose Our Ambulance Service<br />
                 in Lucknow
               </h2>
@@ -544,7 +588,7 @@
           </div>
           <div class="col-12 bottom-section">
             <div class="row">
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/24-7.png" alt="" />
@@ -557,7 +601,11 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4"
+              >
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img
@@ -574,7 +622,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img
@@ -591,7 +639,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mt-custom">
+              <div data-aos="fade-right" class="col-md-6 col-lg-4 mt-custom">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img
@@ -608,7 +656,11 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mt-custom">
+              <div
+                data-aos="fade"
+                data-aos-delay="100"
+                class="col-md-6 col-lg-4 mt-custom"
+              >
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/india.png" alt="" />
@@ -621,7 +673,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-4 mt-custom">
+              <div data-aos="fade-left" class="col-md-6 col-lg-4 mt-custom">
                 <div class="service-container">
                   <div class="icon-bg choose-us-icon">
                     <img class="img-fluid" src="Images/Home/fast.png" alt="" />
@@ -807,10 +859,18 @@
       <div class="container">
         <div class="row">
           <div class="top-section">
-            <p class="highlight-text-1">Why Choose Us</p>
-            <h2>What clients say about our Ambulance services</h2>
+            <p
+              data-aos="fade-down"
+              data-aos-delay="100"
+              class="highlight-text-1"
+            >
+              Why Choose Us
+            </p>
+            <h2 data-aos="fade-up">
+              What clients say about our Ambulance services
+            </h2>
           </div>
-          <div class="bottom-section">
+          <div data-aos="fade" data-aos-delay="200" class="bottom-section">
             <div class="carousel-custom">
               <a
                 class="carousel-control-prev"
