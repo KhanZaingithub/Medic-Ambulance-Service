@@ -468,6 +468,7 @@ p {
   border-radius: 16px;
   box-shadow: 12px 19px 62px 0px rgba(13, 52, 79, 0.07);
   text-align: center;
+  height: 100%;
 }
 
 .service-section .bottom-section .service-container img {
