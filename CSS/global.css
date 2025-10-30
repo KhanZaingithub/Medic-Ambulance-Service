@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 :root {
-  --thm-heading-font: "Plus Jakarta Sans", sans-serif;
+  --thm-heading-font: "Exo", sans-serif;
   --thm-text-font: "DM Sans", sans-serif;
   --thm-primary: #ff4c00;
   --thm-text: #6b6c6c;
@@ -43,7 +45,7 @@ h2 {
   font-size: 45px;
   line-height: 60px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 h3 {
   font-size: 20px;
