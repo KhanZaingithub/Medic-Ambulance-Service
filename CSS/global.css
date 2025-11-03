@@ -627,6 +627,12 @@ p {
 }
 /* Tablet */
 @media screen and (max-width: 1025px) {
+  [data-aos="fade-right"] {
+    transform: translateX(0) !important; /* no horizontal move */
+  }
+  [data-aos="fade-left"] {
+    transform: translateX(0) !important; /* no horizontal move */
+  }
   h2 {
     font-size: 42px;
     line-height: 55px;
