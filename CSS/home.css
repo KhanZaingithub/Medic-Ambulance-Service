@@ -89,22 +89,74 @@
 }
 
 /*=============================================
+    Contact section 
+=============================================*/
+.contact-section {
+  background-color: #fff;
+  padding: 124px 0px 108px 0px;
+}
+.contact-section .top-section .inner-contact {
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.contact-section .top-section .inner-contact h2 {
+  font-size: 40px;
+}
+.contact-section .top-section .inner-contact p {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  color: var(--thm-black);
+  margin-bottom: 30px;
+}
+.contact-section .top-section .inner-contact p span {
+  background: var(--thm-bg-1);
+  color: #fff;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 47px;
+}
+.contact-section .bottom-section .tax-cont {
+  background-color: var(--thm-bg-3);
+  border-radius: 15px;
+}
+.contact-section .bottom-section .tax-cont img {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+}
+.contact-section .bottom-section .tax-cont .text {
+  padding: 20px;
+}
+.contact-section .bottom-section .tax-cont .text p {
+  font-size: 18px;
+}
+/*=============================================
+    Contact section End
+=============================================*/
+
+/*=============================================
    why-choose-section       
 =============================================*/
 .choose-section {
   background-color: #fff;
-  padding: 124px 0px 108px 0px;
+  padding: 80px 0px 108px 0px;
 }
 .choose-section .top-section .text-section {
   text-align: center;
   width: 90%;
   margin: auto;
 }
-.choose-section .top-section .text-section p:last-of-type {
-  font-size: 18px;
-}
 .choose-section .top-section .text-section .highlight-text-1 {
   margin: auto;
+  margin-bottom: 16px;
+}
+.choose-section .top-section .text-section p:last-of-type {
+  font-size: 18px;
 }
 .choose-section .top-section .text-section h2 {
   margin: 10px 0px 8px;
@@ -226,8 +278,14 @@
   .category-section .category-wrapper .category-container {
     width: calc((100% - 30px) / 3);
   }
+  .contact-section {
+    padding: 100px 30px 60px;
+  }
+  .contact-section .bottom-section {
+    margin-top: 50px;
+  }
   .choose-section {
-    padding: 100px 30px;
+    padding: 60px 30px;
   }
   .choose-section .top-section .text-section {
     width: 100%;
@@ -297,9 +355,24 @@
   .category-section .category-wrapper .category-container {
     width: calc((100% - 30px) / 2);
   }
-
+  .contact-section {
+    padding: 75px 10px 60px;
+  }
+  .contact-section .bottom-section {
+    margin-top: 30px;
+  }
+  .contact-section .top-section .inner-contact {
+    border-radius: 20px;
+  }
+  .contact-section .top-section .inner-contact h2 {
+    font-size: 28px;
+  }
+  .contact-section .top-section .inner-contact p {
+    font-size: 30px;
+    margin: 10px 0px 30px;
+  }
   .choose-section {
-    padding: 75px 10px;
+    padding: 60px 10px;
   }
   .choose-section .top-section .text-section h2 br {
     display: contents;
