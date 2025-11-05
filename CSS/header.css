@@ -333,7 +333,7 @@
 
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat var(--thm-bg-1);
+  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat #25d366;
   cursor: pointer;
   transition: 0.4s ease-in-out;
   border-radius: 50px;
