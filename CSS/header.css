@@ -331,8 +331,7 @@
 
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat,
-    linear-gradient(135deg, #25d366, #128c7e);
+  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat, #25d366;
   cursor: pointer;
   transition: 0.4s ease-in-out;
   border-radius: 50px;
@@ -354,7 +353,7 @@
 
 .floating__rght__bx .second-icon .icnbx.social {
   background: url(/Images/Home/call-icon.png) 50%/30px no-repeat,
-    linear-gradient(135deg, #45a7f7, #1e8ffb);
+    var(--thm-primary);
   animation: pulse-1 1.5s ease-out infinite;
   box-shadow: 0 10px 24px rgba(69, 167, 247, 0.45);
 }
