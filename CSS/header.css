@@ -323,8 +323,6 @@
 .fltng__lst > li {
   clear: both;
   position: relative;
-  background: #fafafa;
-  box-shadow: rgba(206, 196, 196, 0.45) 0px 4px 12px 0px;
   width: 75px;
   height: 75px;
   border-radius: 50px;
@@ -333,13 +331,44 @@
 
 .floating__rght__bx .first-icon .icnbx,
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat #25d366;
+  background: url(/Images/Home/wa-icon.png) 50%/35px no-repeat,
+    linear-gradient(135deg, #25d366, #128c7e);
   cursor: pointer;
   transition: 0.4s ease-in-out;
   border-radius: 50px;
+  animation: pulse 1.5s ease-out infinite;
+  box-shadow: 0 10px 24px rgba(37, 211, 102, 0.45);
 }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+}
+
 .floating__rght__bx .second-icon .icnbx.social {
-  background: url(/Images/Home/call-icon.png) 50%/30px no-repeat var(--thm-bg-1);
+  background: url(/Images/Home/call-icon.png) 50%/30px no-repeat,
+    linear-gradient(135deg, #45a7f7, #1e8ffb);
+  animation: pulse-1 1.5s ease-out infinite;
+  box-shadow: 0 10px 24px rgba(69, 167, 247, 0.45);
+}
+
+@keyframes pulse-1 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(69, 167, 247, 0.5);
+  }
+  80% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(69, 167, 247, 0.5);
+  }
 }
 
 .fltng__lst > li:hover .icnbx {
