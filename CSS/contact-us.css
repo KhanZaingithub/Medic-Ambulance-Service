@@ -145,6 +145,10 @@ iframe {
   .contact-section .contact-container {
     padding: 30px 5px;
   }
+  .contact-section .contact-container .contact-left h5 {
+    font-size: 28px;
+    line-height: 38px;
+  }
   form .grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 0px 15px;
