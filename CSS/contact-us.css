@@ -103,10 +103,56 @@ iframe {
   border-radius: 12px;
 }
 
+@media screen and (max-width: 1025px) {
+  .location-section {
+    padding: 100px 30px;
+  }
+  .location-section .location-grid {
+    grid-template-columns: repeat(2, 2fr);
+    gap: 40px 10px;
+  }
+  .contact-section {
+    padding: 60px 30px 100px;
+  }
+  .contact-section .contact-container .contact-left {
+    margin-bottom: 50px;
+  }
+  iframe {
+    height: 520px;
+  }
+  .contact-section .contact-container {
+    padding: 40px 15px;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .location-section {
+    padding: 75px 30px;
+  }
+  .location-section .location-grid {
+    grid-template-columns: repeat(1, 3fr);
+    gap: 40px 10px;
+  }
+  .contact-section {
+    padding: 60px 20px 75px;
+  }
+  .contact-section .contact-container .contact-left {
+    margin-bottom: 30px;
+  }
+  iframe {
+    height: 420px;
+  }
+  .contact-section .contact-container {
+    padding: 30px 5px;
+  }
   form .grid {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 0px 15px;
+  }
+  .contact-section .contact-container .contact-left form .form-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
   }
 }

@@ -57,4 +57,10 @@
   .contact-section .text-section .btn-style {
     margin-top: 0px;
   }
+  .contact-section .contact-container .contact-left form .form-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
 }
