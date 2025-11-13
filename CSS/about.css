@@ -313,6 +313,14 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .breadcrumb-section .content h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 8px;
+  }
+  .breadcrumb .breadcrumb-item a {
+    font-size: 16px;
+  }
   .about-section {
     padding: 75px 10px 60px;
   }
