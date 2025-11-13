@@ -12,6 +12,9 @@
 }
 .about-section .top-section h1 {
   text-align: center;
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 500;
 }
 .about-section .top-section p {
   font-size: 32px;
@@ -54,7 +57,11 @@
 }
 .about-section .bottom-section .image-wrapper {
   width: 728px;
-  align-content: center;
+  text-align: center;
+}
+.about-section .bottom-section .image-wrapper img {
+  width: 70%;
+  border-radius: 8px;
 }
 .about-section .bottom-section .image-wrapper p {
   font-size: 18px;
@@ -68,7 +75,7 @@
 =============================================*/
 .service-section {
   background-color: var(--thm-white);
-  padding: 108px 0px 124px;
+  padding: 80px 0px 124px;
 }
 
 .service-section .top-section .left-section .highlight-text-1 {
@@ -159,9 +166,11 @@
 }
 .value-section .left-section .check-section .bullet-point {
   display: flex;
+  align-items: center;
 }
 .value-section .left-section .check-section .bullet-point img {
   width: 30px;
+  height: 30px;
 }
 .value-section .left-section .check-section .bullet-point h4 {
   margin-bottom: 0px;
@@ -172,6 +181,9 @@
 }
 .value-section .right-section {
   padding-left: 20px;
+}
+.value-section .right-section p {
+  font-size: 18px;
 }
 .value-section .right-section .highlight-wrapper {
   margin-top: 25px;
@@ -207,55 +219,146 @@
 =============================================*/
 
 /*=============================================
-    Team Section
+    Trust Section
 =============================================*/
-.team-section {
+.trust-section {
   padding: 108px 0px 150px 0px;
   background-color: var(--thm-white);
 }
-.team-section .top-section .highlight-text {
+.trust-section .top-section .highlight-text {
   margin: auto;
 }
-.team-section .top-section h2 {
+.trust-section .top-section h2 {
   margin: 10px 0px 8px 0px;
 }
-.team-section .bottom-section {
+.trust-section .top-section .text {
+  font-size: 18px;
+  text-align: center;
+}
+.trust-section .bottom-section {
   margin-top: 50px;
 }
-.team-section .bottom-section .team-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: start; /* prevents stretching */
-  gap: 94px 24px;
+.trust-section .bottom-section > .row {
+  gap: 30px 0px;
 }
-.team-section .bottom-section .team-wrapper .team-container {
-  min-height: 420px;
-  background-image: url(/Images/About/dummy-image.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.trust-section .bottom-section .service-container {
+  height: 100%;
+  background-color: #fefefe;
+  padding: 25px 20px 25px;
   border-radius: 16px;
-  padding: 0px 16px;
-  align-content: end;
+  box-shadow: 0px 4px 12px 0px rgba(206, 196, 196, 0.45);
+  text-align: center;
 }
-.team-section .bottom-section .team-wrapper .team-container .text {
-  background-image: url(/Images/About/text-bg.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding: 28px 20px 20px;
-  border-radius: 12px;
-  box-shadow: 0px 27px 20.1px 0px rgba(19, 23, 32, 0.05);
-  margin-bottom: -58px;
+.trust-section .bottom-section .service-container .icon-bg {
+  padding: 13px;
+  background: linear-gradient(180deg, #fff5eb 0%, #ffffff 100%);
+  border-radius: 100%;
+  width: 90px;
+  margin: auto;
 }
-.team-section .bottom-section .team-wrapper .team-container .text h3 {
-  font-size: 24px;
-  margin-bottom: 12px;
+.trust-section .bottom-section .service-container h3 {
+  margin: 10px 0px 5px;
+  color: var(--thm-primary);
 }
-.team-section .bottom-section .team-wrapper .team-container .text p {
-  margin-bottom: 0px;
-}
+
 /*=============================================
     Team Section End
 =============================================*/
+@media only screen and (max-width: 1025px) {
+  .about-section {
+    padding: 100px 30px 60px;
+  }
+  .about-section .top-section {
+    width: 100%;
+  }
+  .about-section .top-section h1 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .about-section .bottom-section {
+    flex-wrap: wrap;
+  }
+  .about-section .bottom-section .counter-wrapper {
+    width: 50%;
+  }
+  .about-section .bottom-section .image-wrapper {
+    width: 100%;
+    order: 2;
+    margin-top: 40px;
+  }
+  .about-section .bottom-section .image-wrapper img {
+    width: 85%;
+  }
+  .service-section {
+    padding: 60px 30px 100px;
+  }
+  .value-section {
+    padding: 100px 30px 100px;
+  }
+  .value-section h2 {
+    margin-bottom: 10px;
+  }
+  .value-section .left-section {
+    padding-left: (var(--bs-gutter-x) * 0.5);
+  }
+  .value-section .right-section {
+    margin-top: 30px;
+    padding-left: (var(--bs-gutter-x) * 0.5);
+  }
+  .trust-section {
+    padding: 100px 30px 100px;
+  }
+  .faq-section {
+    padding: 100px 30px 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-section {
+    padding: 75px 10px 60px;
+  }
+  .about-section .top-section h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .about-section .bottom-section {
+    margin-top: 30px;
+  }
+  .about-section .bottom-section .counter h3 {
+    font-size: 30px;
+    margin-bottom: 6px;
+    line-height: 45px;
+  }
+  .about-section .bottom-section .image-wrapper img {
+    width: 100%;
+  }
+  .service-section {
+    padding: 60px 10px 75px;
+  }
+  .value-section {
+    padding: 75px 10px 75px;
+  }
+  .value-section h2 {
+    margin-bottom: 10px;
+  }
+  .value-section .left-section {
+    padding-left: (var(--bs-gutter-x) * 0.5);
+  }
+  .value-section .right-section {
+    margin-top: 30px;
+    padding-left: (var(--bs-gutter-x) * 0.5);
+  }
+  .value-section .right-section .highlight-wrapper {
+    margin-top: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 8px;
+  }
+  .trust-section {
+    padding: 75px 10px;
+  }
+  .faq-section {
+    padding: 75px 10px;
+  }
+  .trust-section .bottom-section {
+    margin-top: 30px;
+  }
+}
