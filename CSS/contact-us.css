@@ -28,6 +28,7 @@
 .location-section .location-grid .location-cont a {
   font-size: 18px;
   color: var(--thm-text);
+  font-weight: 600;
 }
 .location-section .location-grid .location-cont a:hover {
   color: var(--thm-bg-1);
