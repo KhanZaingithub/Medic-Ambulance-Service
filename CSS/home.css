@@ -46,7 +46,13 @@
   background-color: var(--thm-primary);
 }
 .banner-section .right-section {
-  align-content: end;
+  position: relative;
+}
+.banner-section .right-section img{
+  position: absolute;
+  right: 0px;
+  bottom: -140px;
+  width: 100%;
 }
 
 /*=============================================
@@ -232,6 +238,9 @@
   }
   .banner-section .right-section {
     margin-top: 50px;
+  }
+  .banner-section .right-section img{
+  position: static;
   }
   .category-section {
     padding: 100px 30px;

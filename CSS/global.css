@@ -620,11 +620,7 @@ p {
 .spacing {
   padding: 120px 0px 120px 0px;
 }
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1240px;
-  }
-}
+
 /* Tablet */
 @media screen and (max-width: 1025px) {
   [data-aos="fade-right"] {
