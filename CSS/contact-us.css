@@ -17,6 +17,9 @@
   text-align: center;
   height: 100%;
 }
+.location-section .location-grid .location-cont .location{
+  padding-top: 10px;
+}
 .location-section .location-grid .location-cont i {
   font-size: 40px;
   color: var(--thm-primary);
